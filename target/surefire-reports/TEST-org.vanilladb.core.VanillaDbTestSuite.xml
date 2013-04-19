@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="178.166" errors="0" skipped="0" tests="70" name="org.vanilladb.core.VanillaDbTestSuite">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.14-b01-447"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M4203"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/CrazyMing/Documents/workspace/vanilladb-core"/>
+    <property name="java.runtime.version" value="1.6.0_43-b01-447-11M4203"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/vq/ghhz6m517kz6ynw6mvwtj1tw0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Users/CrazyMing/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.8.3"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/CrazyMing"/>
+    <property name="user.timezone" value="Asia/Taipei"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="CrazyMing"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_43"/>
+    <property name="java.ext.dirs" value="/Users/CrazyMing/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_43-447"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.012" classname="org.vanilladb.core.storage.file.FileTest" name="testReadWriteAppend"/>
+  <testcase time="0" classname="org.vanilladb.core.storage.file.FileTest" name="testFileList"/>
+  <testcase time="0.001" classname="org.vanilladb.core.storage.file.FileTest" name="testSetAndGet"/>
+  <testcase time="0.001" classname="org.vanilladb.core.storage.file.FileTest" name="testBoundaries"/>
+  <testcase time="0.002" classname="org.vanilladb.core.storage.file.FileTest" name="testBlock"/>
+  <testcase time="0.029" classname="org.vanilladb.core.storage.buffer.BufferTest" name="testBuffer"/>
+  <testcase time="0.01" classname="org.vanilladb.core.storage.buffer.BufferTest" name="testAvailability"/>
+  <testcase time="0.022" classname="org.vanilladb.core.storage.buffer.BufferTest" name="testBufferAbortException"/>
+  <testcase time="11.111" classname="org.vanilladb.core.storage.buffer.BufferTest" name="testBufferRepinning"/>
+  <testcase time="0.025" classname="org.vanilladb.core.storage.record.RecordTest" name="testReadOnly"/>
+  <testcase time="0.039" classname="org.vanilladb.core.storage.record.RecordTest" name="testRecordPage"/>
+  <testcase time="0.265" classname="org.vanilladb.core.storage.record.RecordTest" name="testRecordFile"/>
+  <testcase time="0.023" classname="org.vanilladb.core.storage.tx.recovery.RecoveryTest" name="testRollback"/>
+  <testcase time="0.007" classname="org.vanilladb.core.storage.tx.recovery.RecoveryTest" name="testRecover"/>
+  <testcase time="0.003" classname="org.vanilladb.core.storage.tx.concurrency.LockTableTest" name="testSLocks"/>
+  <testcase time="20.004" classname="org.vanilladb.core.storage.tx.concurrency.LockTableTest" name="testXLocks"/>
+  <testcase time="40.011" classname="org.vanilladb.core.storage.tx.concurrency.LockTableTest" name="testMultiGranularityLocking"/>
+  <testcase time="30.005" classname="org.vanilladb.core.storage.tx.concurrency.ConcurrencyTest" name="testSerializableConcurrencyMgr"/>
+  <testcase time="10.003" classname="org.vanilladb.core.storage.tx.concurrency.ConcurrencyTest" name="testSerializablePhantom"/>
+  <testcase time="10.003" classname="org.vanilladb.core.storage.tx.concurrency.ConcurrencyTest" name="testRepeatableReadConcurrency"/>
+  <testcase time="0.001" classname="org.vanilladb.core.storage.tx.concurrency.ConcurrencyTest" name="testRepeatableReadPhantom"/>
+  <testcase time="0.001" classname="org.vanilladb.core.storage.tx.concurrency.ConcurrencyTest" name="testRepeatableReadEndStatement"/>
+  <testcase time="10.038" classname="org.vanilladb.core.storage.tx.concurrency.ConcurrencyTest" name="testSS"/>
+  <testcase time="0.009" classname="org.vanilladb.core.storage.tx.concurrency.ConcurrencyTest" name="testSRR"/>
+  <testcase time="0.082" classname="org.vanilladb.core.algebra.materialize.MaterializeTest" name="testAggregationFn"/>
+  <testcase time="2.686" classname="org.vanilladb.core.algebra.materialize.MaterializeTest" name="testGroupBy"/>
+  <testcase time="6.721" classname="org.vanilladb.core.algebra.materialize.MaterializeTest" name="testSort"/>
+  <testcase time="0.046" classname="org.vanilladb.core.storage.tx.TxTest" name="testRollback"/>
+  <testcase time="0.005" classname="org.vanilladb.core.storage.tx.TxTest" name="testCommit"/>
+  <testcase time="0.008" classname="org.vanilladb.core.storage.tx.TxTest" name="testEndStatement"/>
+  <testcase time="2.55" classname="org.vanilladb.core.storage.tx.TxTest" name="testConcurrency"/>
+  <testcase time="11.008" classname="org.vanilladb.core.storage.tx.TxTest" name="testDeadlock"/>
+  <testcase time="0.022" classname="org.vanilladb.core.storage.metadata.MetadataTest" name="testTableMgr"/>
+  <testcase time="0.006" classname="org.vanilladb.core.storage.metadata.MetadataTest" name="testViewMgr"/>
+  <testcase time="0.011" classname="org.vanilladb.core.storage.metadata.MetadataTest" name="testIndexMgr"/>
+  <testcase time="0.011" classname="org.vanilladb.core.query.algebra.QueryTest" name="testTable"/>
+  <testcase time="0.054" classname="org.vanilladb.core.query.algebra.QueryTest" name="testSelect"/>
+  <testcase time="0.054" classname="org.vanilladb.core.query.algebra.QueryTest" name="testProject"/>
+  <testcase time="0.382" classname="org.vanilladb.core.query.algebra.QueryTest" name="testProduct"/>
+  <testcase time="0.337" classname="org.vanilladb.core.query.planner.PlannerTest" name="testQuery"/>
+  <testcase time="0.623" classname="org.vanilladb.core.query.planner.PlannerTest" name="testView"/>
+  <testcase time="0.011" classname="org.vanilladb.core.query.planner.PlannerTest" name="testInsert"/>
+  <testcase time="0.047" classname="org.vanilladb.core.query.planner.PlannerTest" name="testDelete"/>
+  <testcase time="0.044" classname="org.vanilladb.core.query.planner.PlannerTest" name="testModify"/>
+  <testcase time="0.018" classname="org.vanilladb.core.query.planner.QueryVerifierTest" name="testInsertData"/>
+  <testcase time="0.015" classname="org.vanilladb.core.query.planner.QueryVerifierTest" name="testModifyData"/>
+  <testcase time="0.005" classname="org.vanilladb.core.query.planner.QueryVerifierTest" name="testDeleteData"/>
+  <testcase time="0.004" classname="org.vanilladb.core.query.planner.QueryVerifierTest" name="testCreateTableData"/>
+  <testcase time="0.004" classname="org.vanilladb.core.query.planner.QueryVerifierTest" name="testCreateIndexData"/>
+  <testcase time="0.031" classname="org.vanilladb.core.query.planner.QueryVerifierTest" name="testCreateViewData"/>
+  <testcase time="0.007" classname="org.vanilladb.core.query.algebra.parse.ParseTest" name="testParseInsert"/>
+  <testcase time="0.007" classname="org.vanilladb.core.query.algebra.parse.ParseTest" name="testParseSelect"/>
+  <testcase time="0.001" classname="org.vanilladb.core.query.algebra.parse.ParseTest" name="testParseConstant"/>
+  <testcase time="0.001" classname="org.vanilladb.core.query.algebra.parse.ParseTest" name="testCreateTable"/>
+  <testcase time="0" classname="org.vanilladb.core.query.algebra.sql.ConstantRangeTest" name="testIsValid"/>
+  <testcase time="0" classname="org.vanilladb.core.query.algebra.sql.ConstantRangeTest" name="testConstantOperations"/>
+  <testcase time="0" classname="org.vanilladb.core.query.algebra.sql.ConstantRangeTest" name="testRangeOperations"/>
+  <testcase time="0.001" classname="org.vanilladb.core.query.algebra.sql.ConstantRangeTest" name="testVarcharRange"/>
+  <testcase time="0.031" classname="org.vanilladb.core.storage.index.btree.BTreeIndexTest" name="testBasicOperation"/>
+  <testcase time="1.983" classname="org.vanilladb.core.storage.index.btree.BTreeIndexTest" name="testBTreeIndex"/>
+  <testcase time="0.015" classname="org.vanilladb.core.storage.index.hash.HashIndexTest" name="testHashIndex"/>
+  <testcase time="0.005" classname="org.vanilladb.core.util.ConstantTest" name="testConstant"/>
+  <testcase time="0.029" classname="org.vanilladb.core.storage.metadata.statistics.HistogramTest" name="testNewMaxDiffFreqHistogram"/>
+  <testcase time="0.008" classname="org.vanilladb.core.storage.metadata.statistics.HistogramTest" name="testNewMaxDiffAreaHistogram"/>
+  <testcase time="0.007" classname="org.vanilladb.core.storage.metadata.statistics.HistogramTest" name="testRangeHistogram"/>
+  <testcase time="0.008" classname="org.vanilladb.core.storage.metadata.statistics.HistogramTest" name="testPredHistogram"/>
+  <testcase time="0.005" classname="org.vanilladb.core.storage.metadata.statistics.HistogramTest" name="testProductHistogram"/>
+  <testcase time="0.004" classname="org.vanilladb.core.storage.metadata.statistics.HistogramTest" name="testProjectHistogram"/>
+  <testcase time="0.003" classname="org.vanilladb.core.storage.metadata.statistics.HistogramTest" name="testJoinHistogram"/>
+  <testcase time="0.007" classname="org.vanilladb.core.storage.metadata.statistics.HistogramTest" name="testGroupByHistogram"/>
+</testsuite>
