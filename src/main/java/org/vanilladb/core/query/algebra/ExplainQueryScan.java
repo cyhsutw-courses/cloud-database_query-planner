@@ -14,9 +14,16 @@ public class ExplainQueryScan implements Scan{
 		id=0;
 		constructResultPlanTree(p, 0);
 		countActualRecords(p);
-		System.out.println(buff.toString());
 	}
 	
+	/**
+	 * Recursively traverse the underlying plans to construct the plan tree diagram.
+	 * 
+	 * @param px
+	 * 		The plan currently traversed.
+	 * @param level
+	 * 		Traverse level, used to indicate the level and print corresponding indents
+	 */
 	private void constructResultPlanTree(Plan px, int level){
 		
 		for(int i=0; i<level; i++){
@@ -36,7 +43,7 @@ public class ExplainQueryScan implements Scan{
 		
 		buff.append(" (#blks="+px.blocksAccessed()+", #recs="+px.recordsOutput()+") \n");
 		
-		ArrayList<Plan> arr=px.getUnderlyingPlan();
+		ArrayList<Plan> arr=px.getUnderlyingPlans();
 		if (arr!=null){
 			for(Plan pz:arr){
 				constructResultPlanTree(pz, level+1);
@@ -45,6 +52,13 @@ public class ExplainQueryScan implements Scan{
 		return;	
 	}
 	
+	/** 
+	 * Run the underlying query plan to get actual number of records.
+	 * 
+	 * @param p
+	 * 		underlying plan (project plan)
+	 *
+	 */
 	private void countActualRecords(Plan p){
 		Scan tempScan=p.open();
 		int count=0;
@@ -56,9 +70,13 @@ public class ExplainQueryScan implements Scan{
 	
 	@Override
 	public void beforeFirst(){
+		id=0;
 		return;
 	}
 	
+	/**
+	 * use a id to indicate whether the user has accessed the result.
+	 */
 	@Override
 	public boolean next(){
 		if(id==0){

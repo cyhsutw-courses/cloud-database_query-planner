@@ -55,6 +55,6 @@ public interface Plan {
 	 * 
 	 * @return the underlyingPlan
 	 */
-	ArrayList<Plan> getUnderlyingPlan();
+	ArrayList<Plan> getUnderlyingPlans();
 	
 }

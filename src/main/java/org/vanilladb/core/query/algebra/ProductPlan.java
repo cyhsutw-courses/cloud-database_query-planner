@@ -127,7 +127,7 @@ public class ProductPlan implements Plan {
 	}
 	
 	@Override
-	public ArrayList<Plan> getUnderlyingPlan(){
+	public ArrayList<Plan> getUnderlyingPlans(){
 		ArrayList<Plan> arr=new ArrayList<Plan>();
 		arr.add(p1);
 		arr.add(p2);

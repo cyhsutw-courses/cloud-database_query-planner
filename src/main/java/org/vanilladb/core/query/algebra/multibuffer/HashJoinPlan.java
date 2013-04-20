@@ -110,7 +110,7 @@ public class HashJoinPlan extends AbstractJoinPlan {
 	}
 
 	@Override
-	public ArrayList<Plan> getUnderlyingPlan(){
+	public ArrayList<Plan> getUnderlyingPlans(){
 		ArrayList<Plan> arr=new ArrayList<Plan>();
 		arr.add(lhs);
 		arr.add(rhs);

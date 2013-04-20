@@ -100,7 +100,7 @@ public class ProjectPlan implements Plan {
 	}
 	
 	@Override
-	public ArrayList<Plan> getUnderlyingPlan(){
+	public ArrayList<Plan> getUnderlyingPlans(){
 		ArrayList<Plan> arr=new ArrayList<Plan>();
 		arr.add(p);
 		return arr;

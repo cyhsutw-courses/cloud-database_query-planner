@@ -113,7 +113,7 @@ public class MultiBufferProductPlan implements Plan {
 	}
 
 	@Override
-	public ArrayList<Plan> getUnderlyingPlan(){
+	public ArrayList<Plan> getUnderlyingPlans(){
 		ArrayList<Plan> arr=new ArrayList<Plan>();
 		arr.add(lhs);
 		arr.add(rhs);

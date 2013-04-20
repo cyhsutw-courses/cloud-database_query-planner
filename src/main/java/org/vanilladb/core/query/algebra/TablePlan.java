@@ -53,7 +53,6 @@ public class TablePlan implements Plan {
 		return tableName;
 	}
 	
-	
 	/**
 	 * Creates a table scan for this query.
 	 * 
@@ -103,7 +102,7 @@ public class TablePlan implements Plan {
 	}
 
 	@Override
-	public ArrayList<Plan> getUnderlyingPlan(){
+	public ArrayList<Plan> getUnderlyingPlans(){
 		return null;
 	}
 }

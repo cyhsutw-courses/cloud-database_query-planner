@@ -105,7 +105,7 @@ public class IndexSelectPlan implements Plan {
 	}
 	
 	@Override
-	public ArrayList<Plan> getUnderlyingPlan(){
+	public ArrayList<Plan> getUnderlyingPlans(){
 		ArrayList<Plan> arr=new ArrayList<Plan>();
 		arr.add(tp);
 		return arr;

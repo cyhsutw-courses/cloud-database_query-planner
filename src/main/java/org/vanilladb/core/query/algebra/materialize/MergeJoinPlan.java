@@ -107,7 +107,7 @@ public class MergeJoinPlan extends AbstractJoinPlan {
 	}
 	
 	@Override
-	public ArrayList<Plan> getUnderlyingPlan(){
+	public ArrayList<Plan> getUnderlyingPlans(){
 		ArrayList<Plan> arr=new ArrayList<Plan>();
 		arr.add(sp1);
 		arr.add(sp2);

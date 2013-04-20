@@ -115,7 +115,7 @@ public class IndexJoinPlan extends AbstractJoinPlan {
 	}
 	
 	@Override
-	public ArrayList<Plan> getUnderlyingPlan(){
+	public ArrayList<Plan> getUnderlyingPlans(){
 		ArrayList<Plan> arr=new ArrayList<Plan>();
 		arr.add(p1);
 		arr.add(tp2);
